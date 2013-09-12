@@ -15,11 +15,11 @@ def functor(arg, function_list):
 
 
 if __name__ == '__main__':
-    print functor(3, [multiply_by_five, add_one, subtract_three])
+    print(functor(3, [multiply_by_five, add_one, subtract_three]))
 
-    print functor(123, [add_one])
+    print(functor(123, [add_one]))
 
     # call with no functions given as parameter; returns as expected
-    print functor(10, []) # => []
+    print(functor(10, [])) # => []
 
 

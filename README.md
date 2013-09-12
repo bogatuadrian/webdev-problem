@@ -1,7 +1,7 @@
 ## Run
 
 ```bash
-make run
+$ make run
 ```
 
 
